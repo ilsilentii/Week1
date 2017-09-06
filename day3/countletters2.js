@@ -12,7 +12,7 @@ function indexof(string) {
 }
 
 var myArgs = (process.argv.slice(2));
-var input = myArgs.join("").replace(/\s/g, "");
+var input = myArgs.join(" ").replace(/\s/g, "");
 console.log(indexof(input));
 
 //console.log(indexof("lighthouse in the house"));
