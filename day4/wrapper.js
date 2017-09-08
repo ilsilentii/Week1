@@ -2,7 +2,7 @@ var wrapLog = function (callback, name) {
 
   return function() {
 
-    console.log(name + "(" + Array.from(arguments).join(", ") + ")" + " => " + callback.apply(this, 5,3));
+    console.log(name + "(" + Array.from(arguments).join(", ") + ")" + " => " + callback.apply(this, arguments));
 
   }
 
