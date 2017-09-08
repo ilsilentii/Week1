@@ -82,11 +82,13 @@ addPlaylist: function (name) {
 
 },
 printSearchResults: function(query) {
-
+  for (i in library.tracks)
+    if (library.tracks[i].name.search(query) >= 0 || library.tracks[i].artist.search(query) >= 0 || library.tracks[i].album.search(query) >= 0)
+      console.log(library.tracks[i].id);
 }
 }
 
-
+library.printSearchResults("Jo");
 
 
 

@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse",
+  "version": "1.0.0",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "me",
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "description": "",
+  "dependencies": {
+    "chalk": "^2.1.0"
+  }
+}
